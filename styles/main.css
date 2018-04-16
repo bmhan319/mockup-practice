@@ -1,0 +1,63 @@
+body {
+  max-width: 720px;
+  margin: 0px;
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding: 0px;
+  font-family: "Arial-light", sans-serif;
+}
+
+header {
+  background: black;
+  left:0rem;
+  right:45rem;
+  bottom: 13rem;
+  width: 45rem;
+  height:13rem;
+}
+
+header a {
+  float: right;
+  margin: 0rem 1rem 0rem 0rem;
+  color: #b20000;
+  font-size: 1.35rem;
+  font-weight:lighter;
+}
+
+header a:hover {
+  color: yellow;
+}
+
+header h1 {
+  float: left;
+  margin: 4.5rem 0rem 0rem 2rem;
+  color: white;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+header h4 {
+  float:left;
+  margin:.5rem 0rem 0rem 2rem;
+  color:dimgray;
+  position: relative;
+  font-weight: lighter;
+  font-size: 1.35rem;
+}
+
+
+/*
+header ul li h1 {
+  float: left;
+  margin: 4.5rem 0rem 0rem 2rem;
+  color: white;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+header h4 {
+  margin:5.5rem 0rem 0rem 2rem;
+  color: lightgray;
+}
+*/
