@@ -1,6 +1,6 @@
 body {
-  max-width: 720px;
-  margin: 0px;
+  width: 720px;
+  margin: 0px auto;
   border: 0px;
   padding: 0px;
   font-family: "Arial-light", sans-serif;
@@ -12,12 +12,12 @@ header {
   padding: 0rem;
   border: 0rem;
   width: 45rem;
-  height:13rem;
+  height:13.1rem;
 }
 
 header a {
   float: right;
-  margin: 1rem 1rem 0rem 0rem;
+  margin: 1rem 1rem;
   color: #b20000;
   font-size: 1.3rem;
   font-weight:lighter;
@@ -33,6 +33,7 @@ header h1 {
   color: white;
   font-weight: lighter;
   font-size: 3rem;
+  font-stretch: expanded;
 }
 
 header h4 {
@@ -49,9 +50,9 @@ nav {
   margin: 0;
   padding: 0;
   border: 0;
-  height: 3rem;
+  height: 2.8rem;
   width: 45rem;
-  top: 12rem;
+  top: 13rem;
 }
 
 nav ul {
@@ -99,3 +100,61 @@ nav ul li {
 }
 */
 
+article {
+  float: left;
+  background: white;
+  width: 27rem;
+  height: 34.7rem;
+}
+
+article h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-stretch: expanded;
+  padding: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.text {
+  font-weight: lighter;
+  font-size: 1.17rem;
+  padding: 0rem 1.2rem 0rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+.text2 {
+  font-weight: lighter;
+  font-size: 1.17rem;
+  font-stretch: expanded;
+  padding: 0rem 0rem 0rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+aside {
+  float:right;
+  background: yellow;
+  width:18rem;
+  height: 34.7rem;
+  
+}
+
+footer {
+  clear: both;
+  background: black;
+  bottom: 0rem;
+  left: 0rem;
+  width: 45rem;
+  height: 9.4rem;
+    
+}
+    
+
+  
+  
+  
+  
+  
+  
