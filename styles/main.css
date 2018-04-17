@@ -135,10 +135,52 @@ article h2 {
 
 aside {
   float:right;
-  background: yellow;
-  width:18rem;
-  height: 34.7rem;
-  
+  background: white;
+  width: 17.0rem;
+  padding: 0rem 0rem .6rem 0rem;
+  margin: 1.7rem .8rem 1rem 0rem;
+  border: .1rem;
+  border-color: gray;
+  border-style: solid;
+  box-shadow: 0rem .02rem 0rem 0rem;
+}
+aside h3 {
+  margin: 1.4rem 0rem 0rem 0rem;
+  text-align: center;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 1.5rem;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.cat1 {
+  padding: .3rem 0rem 0rem 0rem;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 13rem;
+}
+
+aside h4 {
+  margin: .4rem 0rem 0rem 0rem;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.color a {
+  color: red;
+}
+
+.li1 {
+  width: 9rem;
+  padding: .5rem 0rem 0rem 1rem;
+}
+
+.li2 {
+  width:8rem;
+  vertical-align: bottom;
 }
 
 footer {
