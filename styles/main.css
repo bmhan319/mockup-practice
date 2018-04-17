@@ -1,27 +1,25 @@
 body {
   max-width: 720px;
   margin: 0px;
-  border: 1px;
-  border-color: gray;
-  border-style: solid;
+  border: 0px;
   padding: 0px;
   font-family: "Arial-light", sans-serif;
 }
 
 header {
   background: black;
-  left:0rem;
-  right:45rem;
-  bottom: 13rem;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem;
   width: 45rem;
   height:13rem;
 }
 
 header a {
   float: right;
-  margin: 0rem 1rem 0rem 0rem;
+  margin: 1rem 1rem 0rem 0rem;
   color: #b20000;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight:lighter;
 }
 
@@ -31,7 +29,7 @@ header a:hover {
 
 header h1 {
   float: left;
-  margin: 4.5rem 0rem 0rem 2rem;
+  margin: 5.5rem 0rem 0rem 2rem;
   color: white;
   font-weight: lighter;
   font-size: 3rem;
@@ -46,18 +44,58 @@ header h4 {
   font-size: 1.35rem;
 }
 
-
-/*
-header ul li h1 {
-  float: left;
-  margin: 4.5rem 0rem 0rem 2rem;
-  color: white;
-  font-weight: lighter;
-  font-size: 3rem;
+nav {
+  background:#bdbdbd;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 3rem;
+  width: 45rem;
+  top: 12rem;
 }
 
-header h4 {
-  margin:5.5rem 0rem 0rem 2rem;
-  color: lightgray;
+nav ul {
+  list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem,
+}
+
+nav ul li {
+  display:inline; 
+  float: left;
+  font-size: 1.25rem;
+  color: purple;
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  text-decoration: underline;
+}
+
+/* Padding for each piece of text in case it is needed.
+.about {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.rates {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.liability {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.profile {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.book {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
 }
 */
+
