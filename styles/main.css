@@ -13,8 +13,8 @@ header {
   margin: 0rem;
   padding: 0rem;
   border: 0rem;
-  width: 45.rem;
-  height:13.1rem;
+  width: 45rem;
+  height: 13.1rem;
 }
 
 header a {
@@ -22,7 +22,7 @@ header a {
   margin: 1rem 1rem;
   color: #C22736;
   font-size: 1.3rem;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 header a:hover {
@@ -61,7 +61,7 @@ nav ul {
   list-style-type: none;
   margin: 0rem;
   padding: 0rem;
-  border: 0rem,
+  border: 0rem;
 }
 
 nav ul li {
