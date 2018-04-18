@@ -1,7 +1,9 @@
 body {
   width: 720px;
   margin: 0px auto;
-  border: 0px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
   padding: 0px;
   font-family: "Arial-light", sans-serif;
 }
@@ -33,7 +35,6 @@ header h1 {
   color: white;
   font-weight: lighter;
   font-size: 3rem;
-  font-stretch: expanded;
 }
 
 header h4 {
@@ -53,6 +54,7 @@ nav {
   height: 2.8rem;
   width: 45rem;
   top: 13rem;
+  box-shadow: 0rem .01rem .3rem 0rem gray;
 }
 
 nav ul {
@@ -105,16 +107,16 @@ nav ul li a {
 
 article {
   float: left;
+  margin: .5rem 0rem 0rem 0rem;
   background: white;
   width: 27rem;
-  height: 34.7rem;
 }
 
 article h2 {
   font-weight: 400;
   font-size: 1.5rem;
   font-stretch: expanded;
-  padding: 1.5rem 0rem 0rem 1.5rem;
+  padding: 1rem 0rem 0rem 1.5rem;
 }
 
 .text {
@@ -141,7 +143,7 @@ aside {
   background: white;
   width: 17.0rem;
   padding: 0rem 0rem .6rem 0rem;
-  margin: 1.7rem .8rem 1rem 0rem;
+  margin: 1.7rem .8rem 2.6rem 0rem;
   border: .1rem;
   border-color: gray;
   border-style: solid;
@@ -196,9 +198,9 @@ footer {
 }
 
 .footerfont {
-  color: white;
+  color: #E6E5E4;
   font-weight: lighter;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-stretch: expanded;
   line-height: 1.4rem;
 }
