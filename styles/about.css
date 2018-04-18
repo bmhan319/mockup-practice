@@ -1,0 +1,220 @@
+body {
+  width: 720px;
+  margin: 0px auto;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 0px;
+  font-family: "Arial-light", sans-serif;
+}
+
+header {
+  background: black;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem;
+  width: 45rem;
+  height:13.1rem;
+}
+
+header a {
+  float: right;
+  margin: 1rem 1rem;
+  color: #C22736;
+  font-size: 1.3rem;
+  font-weight:lighter;
+}
+
+header a:hover {
+  color: yellow;
+}
+
+header h1 {
+  float: left;
+  margin: 5.5rem 0rem 0rem 2rem;
+  color: white;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+header h4 {
+  float:left;
+  margin:.5rem 0rem 0rem 2rem;
+  color:#959499;
+  position: relative;
+  font-weight: lighter;
+  font-size: 1.35rem;
+}
+
+nav {
+  background:#bdbdbd;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 2.8rem;
+  width: 45rem;
+  top: 13rem;
+  box-shadow: 0rem .01rem .3rem 0rem gray;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem,
+}
+
+nav ul li {
+  display:inline; 
+  float: left;
+  font-size: 1.25rem;
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  text-decoration: underline;
+}
+
+nav ul li a {
+  color:purple;
+}
+
+/* Padding for each piece of text in case it is needed.
+.about {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.rates {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.liability {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.profile {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+
+.book {
+  padding: .6rem 0rem .6rem 2.6rem;
+  font-stretch: expanded;
+}
+*/
+
+article {
+  float: left;
+  margin: .5rem 0rem 0rem 0rem;
+  background: white;
+  width: 27rem;
+}
+
+article h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-stretch: expanded;
+  padding: 1rem 0rem 0rem 1.5rem;
+}
+
+.text {
+  font-weight: lighter;
+  font-size: 1.17rem;
+  padding: 0rem 1.2rem 0rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+.text2 {
+  font-weight: lighter;
+  font-size: 1.17rem;
+  font-stretch: expanded;
+  padding: 0rem 0rem 0rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+aside {
+  float:right;
+  background: black;
+  color: white;
+  width: 17.0rem;
+}
+
+aside h3 {
+  margin: 2.5rem 0rem 0rem 0rem;
+  text-align: center;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 1.5rem;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.cat1 {
+  padding: 0rem 0rem 0rem 0rem;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 13rem;
+}
+
+aside h4 {
+  margin: .4rem 0rem 0rem 0rem;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.li1 {
+  padding: .5rem 1rem 2.5rem 1rem;
+}
+
+footer {
+  clear: both;
+  background: black;
+  bottom: 0rem;
+  left: 0rem;
+  width: 45rem;
+  height: 9.4rem;
+}
+
+.footerfont {
+  color: #E6E5E4;
+  font-weight: lighter;
+  font-size: 1.1rem;
+  font-stretch: expanded;
+  line-height: 1.4rem;
+}
+
+.name {
+  margin:0rem;
+  padding: 1.6rem 0rem 0rem .8rem;
+}
+
+.phone {
+  margin: 0rem;
+  padding: 0rem 0rem 0rem .8rem;
+}
+  
+.email {
+  margin: 0rem;
+  padding: 0rem 0rem 0rem .8rem;
+  color: #C22736;
+}
+
+.slogan {
+  margin: 0rem;
+  padding: 0rem 0rem 0rem .8rem;
+  text-align: center;
+}
+
+.copyright {
+  margin: 0rem;
+  padding: 0rem 0rem 0rem .8rem;
+  text-align: center;
+}
